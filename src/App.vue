@@ -22,4 +22,7 @@ export default {
 </script>
 <style>
   @import "./assets/style/global.scss";
+  #app{
+    min-width: 1200px;
+  }
 </style>
