@@ -29,6 +29,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   width: 80%;
+  height: 120px;
   margin: 0 auto;
 }
 </style>

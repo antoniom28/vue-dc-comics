@@ -79,9 +79,8 @@ nav{
     li a{
       display: inline-block;
       color: black;
-      /*padding: 15px 20px;*/
       margin: 0px 20px;
-      padding: 30px 0; /* da modificare il 30px */
+      padding: 47px 0;
       text-decoration: none;
 
         &.active,&:hover{

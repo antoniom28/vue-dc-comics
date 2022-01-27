@@ -1,19 +1,16 @@
 <template>
-  <footer>
+  <main>
     <div class="container">
-      <footerBuyMenu />
+      <section>
+        Content goes Here
+      </section>
     </div>
-  </footer>
+  </main>
 </template>
 
 <script>
-import footerBuyMenu from './footerBuyMenu.vue'
-
 export default {
-  name: 'Footer',
-  components:{
-  footerBuyMenu,
-  }
+  name: 'mainContent',
 }
 </script>
 
