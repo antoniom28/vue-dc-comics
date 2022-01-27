@@ -69,13 +69,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 @import '../assets/style/partials/variables.scss';
-header{
-  text-align: center;
-}
 nav{
-  display: flex;
-  justify-content: center;
-
+  font-size: 0.8em;
     ul{
       list-style: none;
       display: flex;
@@ -84,16 +79,15 @@ nav{
     li a{
       display: inline-block;
       color: black;
-      padding: 15px 20px;
+      /*padding: 15px 20px;*/
+      margin: 0px 20px;
+      padding: 30px 0; /* da modificare il 30px */
       text-decoration: none;
 
         &.active,&:hover{
-          background-color: $secondary_color;
+          box-shadow: 0px 5px $main_color;
+          color: $main_color;
         }
     }
-}
-.container{
-    max-width: 600px; /* non vado a modificare il .container nel global
-    perchè ci sta scoped ///// da togliere sto container*/
 }
 </style>

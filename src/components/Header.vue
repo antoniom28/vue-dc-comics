@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="container">
-        logo
+        <headerLogo />
         <headerNav />
     </div>
   </header>
@@ -9,11 +9,13 @@
 
 <script>
 import headerNav from './headerNav.vue'
+import headerLogo from './headerLogo.vue'
 
 export default {
   name: 'Header',
   components: {
     headerNav,
+    headerLogo,
   }
 }
 </script>
@@ -21,31 +23,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 @import '../assets/style/partials/variables.scss';
-header{
-  text-align: center;
-}
-nav{
-  display: flex;
-  justify-content: center;
 
-    ul{
-      list-style: none;
-      display: flex;
-    }
-    
-    li a{
-      display: inline-block;
-      color: black;
-      padding: 15px 20px;
-      text-decoration: none;
-
-        &.active,&:hover{
-          background-color: $secondary_color;
-        }
-    }
-}
 .container{
-    max-width: 600px; /* non vado a modificare il .container nel global
-    perchè ci sta scoped ///// da togliere sto container*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
 </style>
