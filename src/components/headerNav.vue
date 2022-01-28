@@ -82,7 +82,7 @@ nav{
       padding: 47px 0;
 
         &.active,&:hover{
-          box-shadow: 0px 5px $main_color;
+          box-shadow: 0px 6px $main_color;
           color: $main_color;
         }
     }

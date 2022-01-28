@@ -1,6 +1,7 @@
 <template>
   <main>
     <div class="container">
+      <div class="jumbo"></div>
       <mainContent />
     </div>
   </main>
@@ -13,7 +14,7 @@ export default {
   name: 'Main',
   components: {
     mainContent,
-  }
+  },
 }
 </script>
 
@@ -25,6 +26,13 @@ export default {
   background-color: $sec_color;
   min-height: 100px; /* poi da togliere */
   color : white; /**/
+}
+
+.jumbo{
+  width: 100%;
+  height: 300px;
+  background-image: url('../assets/img/jumbotron.jpg');
+  background-size: cover;
 }
 
 </style>
