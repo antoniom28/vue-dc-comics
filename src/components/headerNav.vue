@@ -78,10 +78,8 @@ nav{
     
     li a{
       display: inline-block;
-      color: black;
       margin: 0px 20px;
       padding: 47px 0;
-      text-decoration: none;
 
         &.active,&:hover{
           box-shadow: 0px 5px $main_color;

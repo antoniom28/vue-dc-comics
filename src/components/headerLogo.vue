@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="container">
         <img src="../assets/img/dc-logo.png" alt="">
     </div>
 </template>
@@ -11,5 +11,7 @@ export default {
 </script>
 
 <style scoped>
-
+img{
+  width: 80px;
+}
 </style>

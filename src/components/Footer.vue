@@ -3,7 +3,7 @@
     <div class="container">
       <footerBuyMenu />
       <footerCenter />
-      <footerLastBar />
+      <footerBottom />
     </div>
   </footer>
 </template>
@@ -11,14 +11,14 @@
 <script>
 import footerBuyMenu from './footerBuyMenu.vue'
 import footerCenter from './footerCenter.vue'
-import footerLastBar from './footerLastBar.vue'
+import footerBottom from './footerBottom.vue'
 
 export default {
   name: 'Footer',
   components:{
   footerBuyMenu,
   footerCenter,
-  footerLastBar,
+  footerBottom,
   }
 }
 </script>
