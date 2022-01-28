@@ -16,7 +16,7 @@ export default{
     .logo{
         min-width: 580px;
         height: 100%;
-        background-image: url(/img/dc-logo-bg.f4404ce9.png);
+        background-image: url('../assets/img/dc-logo-bg.png');
         background-size: auto;
         background-position: center center;
         background-repeat: no-repeat;
