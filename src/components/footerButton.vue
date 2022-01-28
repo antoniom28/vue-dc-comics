@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container standard-button">
         <a href="#">SIGN-UP NOW!</a>
     </div>
 </template>

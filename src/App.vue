@@ -17,7 +17,22 @@ export default {
     Main,
     Header,
     Footer,
-  }
+  },
+  data(){
+    return{
+      testo : [
+        {
+          name : 'pep'
+        },
+        {
+          name : 'cia'
+        },
+        {
+          name : 'pasta'
+        },
+      ],
+    }
+  },
 }
 </script>
 <style>
